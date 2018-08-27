@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <declare-styleable name="marquee_view">
+        <attr name="text_size" format="dimension" />
+        <attr name="text_color" format="color"/>
+        <attr name="txt_shadow_color" format="color"/>
+        <attr name="marquee_margin" format="dimension"/>
+        <attr name="marquee_margin_txtcount" format="integer"/>
+        <attr name="marquee_speed" format="integer"/>
+    </declare-styleable>
+
 </resources>
